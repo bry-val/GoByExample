@@ -1,5 +1,14 @@
 package main
 
+import (
+	"fmt"
+)
+
+// custom print function to print line with single string
+func print(s string) {
+	fmt.Println(s)
+}
+
 // hello world
 
 // func main() {
@@ -97,4 +106,51 @@ package main
 
 // }
 
-//
+// // basic switch statements
+// func main() {
+
+// 	//simple switch evaluating on one condition
+// 	i := 0
+// 	fmt.Print("Write ", i, " as ")
+// 	switch i {
+// 	case 0:
+// 		print("zero")
+// 	case 1:
+// 		print("one")
+// 	case 2:
+// 		print("two")
+// 	}
+// 	//more complex switch, multiple conditions for one output
+// 	switch time.Now().Weekday() {
+// 	case time.Sunday, time.Saturday:
+// 		print("weekend")
+// 	default:
+// 		print("not weekend")
+// 	}
+
+// 	//alternative if statement. Blank switch creates a conditonial logic flow within brackets
+// 	t := time.Now()
+// 	switch {
+// 	case t.Hour() < 12:
+// 		print("erly burd gits wurm")
+// 	default:
+// 		print("cap")
+// 	}
+
+// 	//takes interface and returns its type
+// 	// function paired with switch to compare datatype attributes, interface.() 'type' in this case
+// 	typeFunc := func(i interface{}) {
+// 		switch t := i.(type) {
+// 		case int:
+// 			print("int")
+// 		case bool:
+// 			print("i am bool")
+// 		default:
+// 			fmt.Printf("Dont know type %T\n", t)
+// 		}
+// 	}
+
+// 	typeFunc(12)
+// 	typeFunc(true)
+// 	typeFunc("stringy")
+// }
