@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // hello world
 
 // func main() {
@@ -71,23 +69,32 @@ import "fmt"
 // 	}
 // }
 
-// //if else logic flow/branching
-func main() {
-	// basic if else flow
-	if 7%2 == 0 {
-		fmt.Printf("7 is even")
-	} else {
-		fmt.Printf("7 is odd")
-	}
-	//if no else, single conditional
-	if 23*2 > 12 {
-		fmt.Println("\ntrue facts")
-	}
-	//boolean comparisions within conditions
-	if 23%2 == 0 || false && true {
-		fmt.Println("uhhhhh not sure")
-	} else {
-		fmt.Println("this is the else :)")
-	}
+// // //if else logic flow/branching
+// func main() {
+// 	// basic if else flow
+// 	if 7%2 == 0 {
+// 		fmt.Printf("7 is even")
+// 	} else {
+// 		fmt.Printf("7 is odd")
+// 	}
+// 	//if no else, single conditional
+// 	if 23*2 > 12 {
+// 		fmt.Println("\ntrue facts")
+// 	}
+// 	//boolean comparisions within conditions
+// 	if 23%2 == 0 || false && true {
+// 		fmt.Println("uhhhhh not sure")
+// 	} else {
+// 		fmt.Println("this is the else :)")
+// 	}
 
-}
+// 	// statement can precede conditional?
+// 	if num := 11; num < 12 {
+// 		fmt.Println("less 12")
+// 	} else {
+// 		fmt.Println("greater than or equal to 12")
+// 	}
+
+// }
+
+//
